@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="file"/>
+    <version value="1"/>
+    <list>
+        <mapping class="com.example.cr.db.User"/>
+        <mapping class="com.example.cr.db.Rating"/>
+        <mapping class="com.example.cr.db.Rating2"/>
+        <mapping class="com.example.cr.db.Recipe"/>
+        <mapping class="com.example.cr.db.Ingredient"/>
+        <mapping class="com.example.cr.db.Favourite"/>
+        <mapping class="com.example.cr.db.Favourite2"/>
+    </list>
+</litepal>

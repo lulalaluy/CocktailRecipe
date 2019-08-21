@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="15dp">
+
+        <EditText
+            android:id="@+id/info_text"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@drawable/white_bg"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/find"
+            android:padding="15dp"
+            android:hint="please enter the name of the cocktail"
+            android:textSize="14sp"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/find_btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:text="search"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:background="@drawable/white_bg"/>
+        
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cr">
+
+    <application
+        android:name="com.example.cr.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label= "@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.cr.RatingActivity"></activity>
+        <activity android:name="com.example.cr.FavouriteActivity" />
+        <activity android:name="com.example.cr.Guide2Activity" />
+        <activity android:name="com.example.cr.GuideActivity" />
+        <activity android:name="com.example.cr.RegActivity" />
+        <activity android:name="com.example.cr.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.cr.MainActivity" />
+    </application>
+
+</manifest>
